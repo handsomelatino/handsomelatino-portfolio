@@ -1,0 +1,42 @@
+@use '../styles';
+@import 'node_modules/include-media/dist/_include-media.scss';
+
+#projects {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: styles.$orange;
+  padding: clamp(12px, 2vw, 20px);
+
+  h2 {
+    font-size: clamp(36px, 5vw, 80px);
+    color: white;
+    text-transform: uppercase;
+    margin: clamp(30px, 5vw, 50px) clamp(0px, 5vw, 40px);
+    text-shadow: 0px 4px 5px rgba(styles.$red, 0.3);
+
+    @include media("<=768px") {
+      text-align: center;
+    }
+  }
+
+  .content {
+    margin: 20px clamp(8px, 2vw, 40px);
+    display: flex;
+    gap: 3%;
+
+    @include media("<=768px") {
+      display: block;
+      margin: 20px 0;
+    }
+
+    .__project-card {
+      width: 33%;
+
+      @include media("<=768px") {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

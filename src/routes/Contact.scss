@@ -1,0 +1,93 @@
+@use '../styles';
+@import 'node_modules/include-media/dist/_include-media.scss';
+
+#contact {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: linear-gradient(93deg, styles.$black 51%, styles.$orange 51%);
+  color: white;
+  padding: clamp(10px, 1vw, 20px);
+  position: relative;
+
+  @include media("<=720px") {
+    text-align: center;
+    background: unset;
+    background-color: styles.$black;
+  }
+
+  h2 {
+    font-size: clamp(36px, 5vw, 80px);
+    text-transform: uppercase;
+    margin: clamp(30px, 5vw, 50px) clamp(0px, 5vw, 40px);
+
+    @include media("<=720px") {
+      text-align: center;
+    }
+  }
+
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+
+    .service {
+      display: flex;
+      gap: 20px;
+      font-size: clamp(16px, 2vw, 28px);
+      font-weight: lighter;
+
+      @include media("<=720px") {
+        display: block;
+      }  
+
+      .name {
+        flex: 1;
+        text-align: right;
+        padding: 12px 16px;
+        margin-right: 24px;
+        color: styles.$orange;
+
+        @include media("<=720px") {
+          margin-right: 0;
+          padding: 0;
+        }
+      }
+
+      .url {
+        flex: 1;
+        display: flex;
+
+        @include media("<=720px") {
+          justify-content: end;
+        }
+      }
+
+      a {
+        color: styles.$black;
+        text-decoration: none;
+        padding: 12px 16px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        /* my home-made naive effort to stop spam after a 5 minute research on stackoverflow */
+        .super {
+          width: 0;
+          overflow: hidden;
+          display: inline-block;
+          line-height: 0;
+        }
+
+        @include media("<=720px") {
+          color: white;
+          padding: 0;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+}

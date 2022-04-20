@@ -1,0 +1,38 @@
+@use '../styles';
+@import 'node_modules/include-media/dist/_include-media.scss';
+
+#what-happened {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: styles.$black;
+  color: white;
+  padding: clamp(10px, 1vw, 20px);
+
+  h2 {
+    font-size: clamp(36px, 5vw, 80px);
+    text-transform: uppercase;
+    margin: clamp(30px, 5vw, 50px) clamp(0px, 5vw, 40px);
+
+    @include media("<=720px") {
+      text-align: center;
+    }  
+  }
+
+  .content {
+    max-width: 800px;
+    width: 50vw;
+    margin: 0 auto;
+    font-size: clamp(18px, 2vw, 22px);
+    line-height: clamp(36px, 3vw, 44px);
+    font-weight: lighter;
+
+    @include media("<=720px") {
+      width: 100%;
+    }
+
+    p {
+      margin: clamp(24px, 2vw, 30px) 0;
+    }
+  }
+}

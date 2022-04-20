@@ -1,0 +1,47 @@
+@use '../styles';
+
+.__project-card {
+  display: block;
+  border-radius: 8px;
+  background-color: rgba(white, 0.2);
+  padding: clamp(8px, 1.5vw, 20px);
+  box-shadow: 2px 2px 4px 1px rgba(styles.$red, 0.1);
+  text-decoration: none;
+  color: black;
+  border: 4px solid transparent;
+  transition: 0.3s border, 0.3s transform;
+
+  &:hover {
+    transform: translateY(-8px);
+    border-color: rgba(white, 0.8);
+  }
+
+  h3 {
+    color: styles.$dark_gray;
+    margin: 0;
+    font-size: 28px;
+    font-size: clamp(20px, 2vw, 28px);
+    line-height: 36px;
+  }
+
+  .url {
+    display: block;
+    color: styles.$gray;
+    font-weight: lighter;
+    font-size: clamp(18px, 1.6vw, 24px);
+    margin-bottom: clamp(12px, 1.6vw, 20px);
+  }
+
+  img {
+    max-width: 100%;
+    border: 3px solid white;
+    border-radius: 8px;
+  }
+
+  .excerpt {
+    margin-top: 12px;
+    font-size: clamp(18px, 1.3vw, 24px);
+    line-height: clamp(32px, 2vw, 36px);
+    font-weight: lighter;
+  }
+}
