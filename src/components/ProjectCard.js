@@ -9,7 +9,7 @@ export default function ProjectCard({ title, url, imgSrc, excerpt }) {
       <div className='header'>
         <h3>{ title }</h3>
         <div className='url'>{ url }</div>
-        <img src={src} />
+        <img alt={title} src={src} />
       </div>
       <div className="excerpt">{ excerpt }</div>
     </a>

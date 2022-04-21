@@ -6,7 +6,7 @@ const PROJECTS = [
     title   : 'BTC2FIAT',
     url     : 'btc2fiat.me',
     imgSrc  : 'btc2fiat.png',
-    excerpt : 'No-BS BTC to USD converter. Created for bitcoin enthusiasts and digital minimalists who value their privacy and time.',
+    excerpt : 'No-BS BTC to Fiat converter. Created for bitcoin enthusiasts and digital minimalists who value their privacy and time.',
   },
 
   {
@@ -15,13 +15,6 @@ const PROJECTS = [
     imgSrc  : 'bitcoin_exact_forecast.png',
     excerpt : 'Exact price of bitcoin from 2012 to 2032. An ode to my addiction to checking the spot price of bitcoin.',
   },
-
-  // {
-  //   title   : 'Bitcoin Exact Forecast',
-  //   url     : 'bitcoinexactforecast.com',
-  //   imgSrc  : 'bitcoin_exact_forecast.png',
-  //   excerpt : 'Exact price of bitcoin from 2012 to 2032. An ode to my addiction to checking the spot price of bitcoin.',
-  // },
 
   // {
   //   title   :

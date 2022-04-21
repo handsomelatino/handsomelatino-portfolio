@@ -12,12 +12,12 @@ export default function LandingPage() {
   console.log('location:', location);
   
   return (
-    <div>
+    <>
       <AboutMe />
       <WhatHappened />
       <Projects />
       <SupportMe />
       <Contact />
-    </div>
+    </>
   );
 }

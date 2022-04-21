@@ -8,14 +8,14 @@ export default function WhatHappened() {
       <div className='content'>
         <p><em>2020 came, inflation hit, and I stopped feeling handsome.</em></p>
 
-        <p>I learned that savings had become an increasing liability, and time and energy were becoming.</p>
+        <p>I learned that time and energy were becoming harder to store in traditional savings; savings had effectively become an increasing liability.</p>
           
-        <p>That’s when Bitcoin came into my radar: a type of money owned by no one, backed by cryptography, and created by the community.</p>
+        <p>That’s when Bitcoin came into my radar: a type of money owned by everyone and no one, backed by cryptography.</p>
 
-        <p>Like many, I got into Bitcoin hoping for quick gains but stayed for the revolution.</p>
+        <p><em>Like many, I got into Bitcoin hoping for quick gains but stayed for the revolution.</em></p>
 
-        <p>I have devoted my effort and experience as a Software Developer to create Bitcoin projects and help those around me embrace the power that Bitcoin can bring as an innovative, decentralized currency and an immutable asset.</p>
-        <p>In the Information Era, coding and knowledge can be done by anyone from anywhere in the world, I am hoping that money can also follow along and let us achieve sovereignity.</p>
+        <p>I am devoting my effort and experience as a Software Engineer and UX enthusiast to create Bitcoin projects and help those around me embrace the power that Bitcoin can bring as an innovative, decentralized currency and an immutable asset.</p>
+        <p>In the Information Era where programming can be done by anyone and knowledge is available to all, I hope that money can also follow along and let us achieve sovereignity.</p>
 
         {/* <p>Something was not right.</p>
         <p>I was constantly getting promoted, my job got busier and more stressful, and at some point we were not been able to save money any more even though we were making more than ever.</p>

@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  height: 100%;
 }
 
 *, *:before, *:after {
@@ -8,5 +9,9 @@ html {
 
 body {
   margin: 0;
-  /* font-size: clamp(100%, 1rem + 2vw, 24px); */
+  height: 100%;
+}
+
+#root {
+  height: 100%;
 }
