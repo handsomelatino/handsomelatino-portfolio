@@ -50,5 +50,19 @@
       }
     }
 
+    p.lnurl-button {
+      text-align: center;
+
+      .__link-button {
+        display: inline-block;
+        border: 2px solid styles.$orange;
+        color: styles.$orange;
+        border-radius: 16px;
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: clamp(16px, 1.4vw, 20px);
+        padding: clamp(10px, 4vw, 12px) clamp(16px, 4vw, 50px);
+      }
+    }
   }
 }
