@@ -14,5 +14,5 @@ export default function SupportMe() {
         <p className='lnurl-button'><LinkButton to='lightning:lnurl1dp68gurn8ghj7um5v93kketj9ehx2amn9uh8wetvdskkkmn0wahz7mrww4excup0dpskuerndakk2hmvv96xjmn02f3vg9'>⚡️ handsome_latino@stacker.news</LinkButton></p>
       </div>
     </div>
-  )
+  );
 }

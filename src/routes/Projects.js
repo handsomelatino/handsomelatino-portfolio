@@ -16,6 +16,13 @@ const PROJECTS = [
     excerpt : 'Exact price of bitcoin from 2012 to 2032. An ode to my addiction to checking the spot price of bitcoin.',
   },
 
+  {
+    title   : 'Bitcoin Crossword',
+    url     : 'bitcoin-crossword.com',
+    imgSrc  : 'crossword.png',
+    excerpt : 'A bounty hides behind this crossword. Decipher it, and you will find a handsome magic bounty.',
+  },
+
   // {
   //   title   :
   //   url     :
